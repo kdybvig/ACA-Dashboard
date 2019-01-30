@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="dashboard-styles.css" />
+<body>
+    <h1>My Dashboard</h1>
+    <div class="col" id="col-2">
+        <div class="container" id="greeting-container">
+            <h2>Hello <span id="name">Clayton</span>, Welcome to My Dashboard</h2>
+            <p>I created a clock, calendar, calculator, and to-do-list for your convenience.</p>
+        </div>
+        <div class="container" id="time-and-date-container">
+                <h2>Time and Date</h2>
+                <div id="clock">
+                    <div id="inner-clock">
+                        <div id="screen">
+                            <p id="time">12:34 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="calendar">
+                    <div id="calendar-top">
+                        <div id="day-of-week">SATURDAY</div>
+                    <div>
+                    <div id="calendar-bottom">
+                        <div id="month">February</div>
+                        <div id="day">2</div>
+                        <div id="year">2019</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="grid">
+        <div class="col" id="col-1">
+            <div class="container" id="calculator-container">
+                <h2>Calculator</h2>
+            </div>
+            <div class="container" id="to-do-container">
+                <h2>To-Do List</h2>
+                <form id="to-do-form">
+                    <input type="text" id="to-do-input" />
+                    <input type="submit" value="Add to list" id="to-do-submit" />
+                </form>
+                <ul>
+                    <li>Eat breakfast</li>
+                    <li>Go to work</li>
+                    <li>Sleep</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

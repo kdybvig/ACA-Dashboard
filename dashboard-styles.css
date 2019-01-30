@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "digital";
+    src: url("digital.ttf");
+}
+
+body {
+    background-color: #AAA;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #001754;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container {
+    background-color: #FFF;
+    padding: 10px 20px 40px 20px;
+    width: calc(100% - 40px);
+    margin: 10px auto;
+}
+
+#col-1{
+    grid-column: 1/2;
+    margin: 0px 40px;
+}
+
+#col-2 {
+    grid-column: 2/3;
+    margin: 0px 40px;
+}
+
+#to-do-container {
+    min-height: 350px;
+}
+
+#clock {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 440px;
+    height: 190px;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 5px 5px 5px;
+    vertical-align: top;
+}
+
+#inner-clock {
+    border: 1px solid black;
+    width: 410px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #DDD;
+}
+
+#screen {
+    font-family: "digital", Helvetica, sans-serif;
+    font-size: 115px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 355px;
+    height: 105px;
+    border-radius: 4px;
+    background-color: #C3D3B2;
+}
+
+#calendar {
+    display: inline-block;
+    background-color: #d8d8d8;
+    vertical-align: top;
+    margin: 10px 20px;
+    border: 1px solid black;
+    height: 187px;
+    width: 188px;
+    box-shadow: 5px 5px 5px;
+}
+
+#time {
+    display: inline;
+}
+
+#calendar-top {
+    height: 42px;
+    padding-top: 18px;
+    background-color:#C53833;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#day-of-week {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#calendar-bottom {
+    padding-top: 20px;
+}
+
+#month {
+    color: black;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+#day {
+    color: black;
+    font-size: 80px;
+    font-family:  sans-serif;
+}
+
+#year {
+    color: black;
+    font-size: 20px;
+    margin-top: -10px;
+}
