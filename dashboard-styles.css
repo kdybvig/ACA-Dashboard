@@ -17,6 +17,7 @@ h1 {
 #grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
 }
 
 .container {
@@ -27,6 +28,7 @@ h1 {
 }
 
 #col-1{
+    grid-row: 1;
     grid-column: 1/2;
     margin: 0px 40px;
 }
@@ -107,7 +109,8 @@ h1 {
 }
 
 #calendar-bottom {
-    padding-top: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 #month {
