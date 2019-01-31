@@ -32,9 +32,8 @@ h1 {
     margin: 0px 40px;
 }
 
-#to-do-container {
-    min-height: 350px;
-}
+
+/* Clock */
 
 #clock {
     display: inline-block;
@@ -71,6 +70,12 @@ h1 {
     background-color: #C3D3B2;
 }
 
+#time {
+    display: inline;
+}
+
+/*Calendar*/
+
 #calendar {
     display: inline-block;
     background-color: #d8d8d8;
@@ -80,10 +85,6 @@ h1 {
     height: 187px;
     width: 188px;
     box-shadow: 5px 5px 5px;
-}
-
-#time {
-    display: inline;
 }
 
 #calendar-top {
@@ -130,6 +131,8 @@ h1 {
     grid-column: 1/2;
     margin: 0px 40px;
 }
+
+/* Calculator */
 
 #calculator {
     display: inline-block;
@@ -188,4 +191,9 @@ h1 {
     right: 14px;
   }
   
+
+  /* Time */
   
+#to-do-container {
+    min-height: 350px;
+}
