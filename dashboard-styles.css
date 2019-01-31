@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: #AAA;
+    background-color: #c7cacC;
     color: #333;
     margin: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #001754;
+    color: #2d2f77;
 }
 
 #grid {
@@ -22,9 +22,11 @@ h1 {
 
 .container {
     background-color: #FFF;
-    padding: 10px 20px 40px 20px;
-    width: calc(100% - 40px);
-    margin: 10px auto;
+    padding: 10px 40px 40px 40px;
+    width: calc(100% - 80px);
+    margin: 15px auto;
+    min-width: 160px;
+    box-shadow: 3px 3px 4px #555;
 }
 
 #col-2 {
@@ -200,7 +202,7 @@ h1 {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1080px) {
     #grid {
         display: block;
     }
